@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bg.jpg);
+	height: 680px;
+	width: 1348px;
+	background-size: cover;
+	background-position: center;
+}
+.main{
+	background-color: black;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 8px;
+	margin-right: 35px;
+
+}
+ul li{
+	display: inline;
+}
+ul li a{
+	font-size: 35px;
+	text-decoration: none;
+	color: white;
+	padding: 4px;
+	border-color: 4px solid #fff;
+	transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color: #dc143c;
+	color: white;
+}
+.logo img{
+	float: left;
+	height: auto;
+	width: 70px;
+	padding: 10px;
+}
+.title{
+	position: absolute;
+	top: 30%;
+	left:8%;
+	font-size: 35px;
+	color:#11F3DC;
+}
+.button{
+	position: absolute;
+	font-size:30px;
+	top: 60%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	color: #dc143c;
+	background-color: white;
+	font-size: 40px;
+	padding: 8px 25px;
+	text-decoration: none;	
+	transition: 0.6s ease;
+}
+body{
+	background-color: #bc8f8f;
+}
+.left h1{
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	color: black;
+}
+.left1 img{
+	float: left;
+	margin-top: 30px;
+	margin-left: 0px;
+}
